@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.map-overlay {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+}
+
+#xx {
+  font-family: "Roboto Mono";
+}
+
+.dropdown-menu {
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  width: 100%;
+}
