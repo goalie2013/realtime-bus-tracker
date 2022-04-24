@@ -21,9 +21,6 @@ const map = new mapboxgl.Map({
 
 // Request bus data from MBTA
 async function getAllBusLocations() {
-  /* const response = await fetch(
-             "https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip"
-           ); */
   const response = await fetch("https://api-v3.mbta.com/vehicles");
   const json = await response.json();
   return json.data;
