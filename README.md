@@ -1,5 +1,5 @@
 # Realtime Bus Tracker
-The Realtime Bus Routes activity showcases using an API and a mapping service to show data in realtime. 
+The Realtime Bus Tracker activity showcases using an API and a mapping service to show data in realtime. 
 The project displays markers that represent current buses on their bus routes in the Greater Boston Area.
 
 ## Tools used:
